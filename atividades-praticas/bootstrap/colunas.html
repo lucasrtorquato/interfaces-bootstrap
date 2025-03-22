@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colunas</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+        .altura300{
+            background-color: antiquewhite;
+            height: 300px;
+        }
+
+        .col-3{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Alinhamento vertical</h1>
+        <div class="row altura300 align-items-center">
+            <div class="col-3 border align-self-start">Coluna 1</div>
+            <div class="col-3 border align-self-center">Coluna 2</div>
+            <div class="col-3 border align-self-end">Coluna 3</div>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <div class="container">
+        <h1>Alinhamento horizontal</h1>
+        <div class="row altura300 justify-content-center">
+            <div class="col-3 border order-2">Coluna 1</div>
+            <div class="col-3 border order-3">Coluna 2</div>
+            <div class="col-3 border order-1">Coluna 3</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row altura300">
+            <div class="col-3 mx-auto my-auto">Coluna Margem</div>
+        </div>
+    </div>
+
+    
+    <link href="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js">
+</body>
+</html>
