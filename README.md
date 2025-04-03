@@ -5,9 +5,9 @@ Este repositório contém os arquivos e materiais utilizados no curso de Interfa
 ## Estrutura do Diretório
 
 ```
-/               # Diretório raiz
-|-- /atividades        # Exercícios de fixação.
-|-- /atividades-praticas         # Atividades práticas realizadas com os alunos durante as aulas.
+/   # Diretório raiz
+|-- /atividades   # Exercícios de fixação.
+|-- /atividades-praticas   # Atividades práticas realizadas com os alunos durante as aulas.
 |-- README.md   # Este arquivo
 ```
 
